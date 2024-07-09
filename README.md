@@ -1,107 +1,101 @@
-# Awesome Telegram Mini Apps [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
+# 优秀的Telegram迷你应用程序 [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
 <img src="assets/tapps.png" align="right" width="100" style="max-width: 100%" />
 
-> A curated list of awesome things related to Telegram Mini Apps.
+> 一个精心策划的与Telegram迷你应用程序相关的优秀资源列表。
 
-Telegram Mini Apps are web apps that are launched right inside [Telegram](https://telegram.org), letting them have a consistent user experience.
-They can take advantage of many features out of the box, including seamless authorization, integrated payments, push notifications, and much more.
+Telegram迷你应用程序是可以直接在[Telegram](https://telegram.org)内启动的Web应用程序，使它们能够提供一致的用户体验。它们可以利用许多开箱即用的功能，包括无缝授权、集成支付、推送通知等等。
 
-## Contents
+## 目录
 
-- [Resources](#resources)
-- [Articles](#articles)
-- [Videos](#videos)
-- [UI Kits](#ui-kits)
-- [Libraries](#libraries)
-- [Templates](#templates)
-- [Projects](#projects)
-- [Products](#products)
-- [Communities](#communities)
+- [资源](#resources)
+- [文章](#articles)
+- [视频](#videos)
+- [UI工具包](#ui-kits)
+- [库](#libraries)
+- [模板](#templates)
+- [项目](#projects)
+- [产品](#products)
+- [社区](#communities)
 
-## Resources
+## 资源
 
-<!-- lint ignore double-link -->
+- [官方指南](https://core.telegram.org/bots/webapps)
+- [社区指南](https://docs.telegram-mini-apps.com)
+- [TON文档指南](https://docs.ton.org/develop/dapps/twa)
+- [Telegram迷你应用程序问题](https://github.com/Telegram-Mini-Apps/issues)
+- [热门应用](https://t.me/trendingapps)
 
-- [Official Guide](https://core.telegram.org/bots/webapps)
-- [Community Guide](https://docs.telegram-mini-apps.com)
-- [TON Documentation Guide](https://docs.ton.org/develop/dapps/twa)
-- [Telegram Mini Apps Issues](https://github.com/Telegram-Mini-Apps/issues)
-- [Trending Apps](https://t.me/trendingapps)
+## 文章
 
-## Articles
+> 其他语言的资源可以在[这里](https://github.com/telegram-mini-apps-dev/awesome-telegram-mini-apps/blob/main/resources_other_languages.md#resources-in-other-languages)找到。
 
-> Resources in other languages can be found [here](https://github.com/telegram-mini-apps-dev/awesome-telegram-mini-apps/blob/main/resources_other_languages.md#resources-in-other-languages).
+- [使用Python逐步构建带有简单WebApp UI的Telegram聊天机器人的指南](https://medium.com/@calixtemayoraz/step-by-step-guide-to-build-a-telegram-chatbot-with-a-simple-webapp-ui-using-python-44dca453522f)
+- [使用React和Next.js创建Telegram迷你应用程序](https://dev.to/bitofuniverse/telegram-web-app-with-react-and-nextjs-440i)
+- [创建Telegram迷你应用程序并在Telegram机器人中与其交互](https://prog.world/creation-of-telegram-web-apps-and-interaction-with-them-in-telegram-bots)
 
-- [Step-by-Step guide to build a Telegram Chatbot with a simple WebApp UI using Python](https://medium.com/@calixtemayoraz/step-by-step-guide-to-build-a-telegram-chatbot-with-a-simple-webapp-ui-using-python-44dca453522f)
-- [Telegram Mini App with React and Next.js](https://dev.to/bitofuniverse/telegram-web-app-with-react-and-nextjs-440i)
-- [Creation of Telegram Mini Apps and interaction with them in Telegram bots](https://prog.world/creation-of-telegram-web-apps-and-interaction-with-them-in-telegram-bots)
+## 视频
 
-## Videos
+- [Telegram迷你应用程序：技巧与窍门 | Arthur Stambultsyan](https://www.youtube.com/watch?v=amvZy9hzAic&t=2476)
 
-- [Telegram Mini Apps: tips and hacks | Arthur Stambultsyan](https://www.youtube.com/watch?v=amvZy9hzAic&t=2476)
+## UI工具包
 
-## UI Kits
+- [Telegram UI](https://github.com/Telegram-Mini-Apps/TelegramUI) - Telegram UI工具包提供了多种预设计组件和工具，帮助您快速开发高质量的Telegram应用程序。
+- [Telegram图形Figma文件](https://www.figma.com/community/file/1248595286803212338/telegram-graphics) - 设计灵感，加快应用程序的开发。
+- [@tonconnect/ui](https://github.com/ton-connect/sdk/tree/main/packages/ui) - 使用TON钱包对应用程序用户进行授权。
+- [@twa-dev/Mark42](https://github.com/twa-dev/Mark42) - 一个简单、轻量且支持树摇的Telegram迷你应用程序UI库。
 
-- [Telegram UI](https://github.com/Telegram-Mini-Apps/TelegramUI) - Telegram UI kit equips you with a variety of pre-designed components and tools to help you quickly develop high-quality Telegram applications.
-- [Telegram Graphics Figma file](https://www.figma.com/community/file/1248595286803212338/telegram-graphics) - Design inspirations to fasten your app's development.
-- [@tonconnect/ui](https://github.com/ton-connect/sdk/tree/main/packages/ui) - Authorize your app's users with their TON wallets.
-- [@twa-dev/Mark42](https://github.com/twa-dev/Mark42) - A simple, lightweight, and tree-shakable UI library for Telegram Mini Apps.
+## 库
 
-## Libraries
+- [@twa-dev/SDK](https://github.com/twa-dev/SDK) - WebApp API作为npm包。
+- [@twa.js](https://github.com/Telegram-Web-Apps/twa.js) - 包含开发Telegram迷你应用程序所需的一切的monorepository，使用TypeScript。
+- [flutter_telegram_web](https://pub.dev/documentation/flutter_telegram_web_app/latest) - 使用Flutter构建Telegram迷你应用程序。
+- [Telegram迷你应用程序的TypeScript类型定义](https://github.com/DavisDmitry/telegram-webapps/tree/master) - WebApp API的TypeScript类型定义。
+- [init-data-golang](https://github.com/Telegram-Mini-Apps/init-data-golang) - 用于Go的初始化数据验证实用程序。
+- [react-telegram-web-app](https://github.com/vkruglikov/react-telegram-web-app) - 用于构建WebApp API的React hooks和组件。
 
-<!-- lint ignore double-link -->
-
-- [@twa-dev/SDK](https://github.com/twa-dev/SDK) - The [WebApp API](https://core.telegram.org/bots/webapps#initializing-mini-apps) as an npm package.
-- [@twa.js](https://github.com/Telegram-Web-Apps/twa.js) - A monorepository that contains everything you need to develop Telegram Mini Apps in TypeScript.
-- [flutter_telegram_web](https://pub.dev/documentation/flutter_telegram_web_app/latest) - Build Telegram Mini Apps with Flutter.
-- [Typings for Telegram Mini Apps](https://github.com/DavisDmitry/telegram-webapps/tree/master) - TypeScript typings for the WebApp API.
-- [init-data-golang](https://github.com/Telegram-Mini-Apps/init-data-golang) - Init data validation utilities for Go.
-- [react-telegram-web-app](https://github.com/vkruglikov/react-telegram-web-app) - React hooks and components for building the WebApp API.
-
-## Templates
+## 模板
 
 - [@twa-dev/webpack-boilerplate](https://github.com/twa-dev/webpack-boilerplate)
 - [@twa-dev/vanilla-js-boilerplate](https://github.com/twa-dev/vanilla-js-boilerplate)
 - [@twa-dev/vite-boilerplate](https://github.com/twa-dev/vite-boilerplate)
-- [TON integration template](https://github.com/ton-community/twa-template)
+- [TON集成模板](https://github.com/ton-community/twa-template)
 - [@ton-defi-org/tonstarter-twa](https://github.com/ton-defi-org/tonstarter-twa)
-- [Telegram Onboarding Kit](https://github.com/Easterok/telegram-onboarding-kit)
+- [Telegram入门套件](https://github.com/Easterok/telegram-onboarding-kit)
 
-## Projects
+## 项目
 
-- [Telebook](https://github.com/neSpecc/telebook) - Hotel booking app concept.
-- [StickerWiz](https://github.com/TatianaFomina/stkrz_bot) - Telegram MiniApp that allows to create personalised sticker packs.
-- [fStik](https://github.com/fstik-app/catalog) - Telegram sticker catalog.
-- [ChessNowBot](https://github.com/Quatern1on/ChessNowBot) - Play chess live with other Telegram users.
-- [TRide](https://github.com/ArashYounesi/TRide) - Ride booking app concept.
-- [TeleOTP](https://github.com/UselessStudio/TeleOTP) - A one-time password generator.
-- [Mini Events](https://github.com/mbasaglia/mini_apps) - Python framework to create event-based Mini Apps.
-- [Notepher](https://github.com/deptyped/notepher-bot) - A note taking app synced with the Telegram cloud.
-- [MiniWoo](https://github.com/mini-woo/mini-woo) - A Telegram Mini App for WooCommerce.
-- [@PaintBot](https://github.com/hip-hyena/PaintBot) - Collaboratively create small hand-drawn images.
-- [MedSync](https://github.com/Latand/MedSyncWebApp) - Healthcare booking app concept.
-- [DPXWallet](https://github.com/erfanmola/DPXWallet) - Crypto wallet app concept.
-- [Calculator](https://github.com/ArashYounesi/TCalculator) - Calculator app concept.
-- [Wishlist](https://github.com/grulex/telegram-wishlist-miniapp) - Organize your wishes.
-- [Next.js Example](https://github.com/mauriciobraz/next.js-telegram-webapp) - Example for developing using Next.js.
-- [aiogram-aiohttp Example](https://github.com/abdullaev388/Telegram-Web-App) - Example for developing using aiogram and aiohttp.
-- [Datetime Picker](https://github.com/Expented/tgdtp) - Date and time picker component.
-- [Python Backend Example](https://github.com/poshl000/telegram-webapp-bot) - Example for using Python for the backend.
-- [MemoCard](https://github.com/kubk/memo-card) - Flashcard app for improving memory with spaced repetition. 
+- [Telebook](https://github.com/neSpecc/telebook) - 酒店预订应用概念。
+- [StickerWiz](https://github.com/TatianaFomina/stkrz_bot) - 允许创建个性化贴纸包的Telegram迷你应用程序。
+- [fStik](https://github.com/fstik-app/catalog) - Telegram贴纸目录。
+- [ChessNowBot](https://github.com/Quatern1on/ChessNowBot) - 与其他Telegram用户实时下棋。
+- [TRide](https://github.com/ArashYounesi/TRide) - 乘车预订应用概念。
+- [TeleOTP](https://github.com/UselessStudio/TeleOTP) - 一次性密码生成器。
+- [Mini Events](https://github.com/mbasaglia/mini_apps) - 用于创建基于事件的迷你应用程序的Python框架。
+- [Notepher](https://github.com/deptyped/notepher-bot) - 与Telegram云同步的记事应用程序。
+- [MiniWoo](https://github.com/mini-woo/mini-woo) - WooCommerce的Telegram迷你应用程序。
+- [@PaintBot](https://github.com/hip-hyena/PaintBot) - 协作创建小手绘图像。
+- [MedSync](https://github.com/Latand/MedSyncWebApp) - 医疗预约应用概念。
+- [DPXWallet](https://github.com/erfanmola/DPXWallet) - 加密钱包应用概念。
+- [Calculator](https://github.com/ArashYounesi/TCalculator) - 计算器应用概念。
+- [Wishlist](https://github.com/grulex/telegram-wishlist-miniapp) - 组织您的愿望清单。
+- [Next.js示例](https://github.com/mauriciobraz/next.js-telegram-webapp) - 使用Next.js开发的示例。
+- [aiogram-aiohttp示例](https://github.com/abdullaev388/Telegram-Web-App) - 使用aiogram和aiohttp开发的示例。
+- [日期时间选择器](https://github.com/Expented/tgdtp) - 日期和时间选择器组件。
+- [Python后端示例](https://github.com/poshl000/telegram-webapp-bot) - 使用Python作为后端的示例。
+- [MemoCard](https://github.com/kubk/memo-card) - 通过间隔重复提高记忆力的闪卡应用程序。
 
-## Products
+## 产品
 
-- [TON Play](https://tonplay.io) - A toolkit that allows game developers to leverage the power of Telegram.
-- [Telegram Shop Platform](https://telegramwebapps.ru) - Sell your products inside Telegram.
-- [@wallet](https://wallet.tg) - Store, send and exchange crypto assets inside Telegram.
-- [Tribute](https://tribute.t.me) - Monetize content through donations and subscriptions.
-- [Community](https://community_bot.t.me) - Telegram-native toolset for communities.
+- [TON Play](https://tonplay.io) - 允许游戏开发者利用Telegram的力量的工具包。
+- [Telegram商店平台](https://telegramwebapps.ru) - 在Telegram内销售您的产品。
+- [@wallet](https://wallet.tg) - 在Telegram内存储、发送和交换加密资产。
+- [Tribute](https://tribute.t.me) - 通过捐赠和订阅获得内容的变现。
+- [Community](https://community_bot.t.me) - Telegram原生社区工具集。
 - [Fanton Fantasy Football](https://fantongamebot.t.me)
-- [PlayDeck](https://playdeckbot.t.me) - The ultimate Telegram game catalog.
+- [PlayDeck](https://playdeckbot.t.me) - 终极Telegram游戏目录。
 
-## Communities
+## 社区
 
-- [Telegram Chat](https://t.me/twa_dev) - Get help from our friendly community.
-- [twa-dev GitHub](https://github.com/twa-dev) - A set of tools that helps you develop your apps in a fast and convenient way.
-
+- [Telegram聊天](https://t.me/twa_dev) - 从我们友好的社区获取帮助。
+- [twa-dev GitHub](https://github.com/twa-dev) -  一个帮助你快速、方便地开发应用程序的工具集。
